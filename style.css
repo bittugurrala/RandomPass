@@ -1,0 +1,38 @@
+:root{
+    --text-color:linear-gradient(135deg, #3b82f6, #00eaff);
+
+}
+.container-fluid{
+    height: 100vh;
+    width : 100vw;
+    background: linear-gradient(135deg, #2c5364, #4b0082, #2c5364);
+    font-family: poppins;
+
+}
+.gradient-text {
+    background: var(--text-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.heading{
+    display: inline;
+    font-weight: 600;
+    font-size: 40px;
+}
+.pass-heading {
+    text-decoration: underline white;
+    text-underline-offset: 6px;
+}
+.click{
+    background: var(--text-color) !important;
+    color: black !important;
+    
+}
+.copy{
+    cursor: pointer;
+}
+.clicked{
+    background: #C0C0C0; 
+}
+
